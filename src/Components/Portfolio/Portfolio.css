@@ -1,0 +1,143 @@
+.portfolio{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        flex-direction: column;
+      
+    
+}
+.portfolio span:nth-of-type(1){
+    color: var(--black);
+    font-size: 32px;
+    font-weight: bold;
+}
+.portfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 40px;
+    font-weight: bold;
+}
+.portfolio .swiper{
+overflow: visible!important;
+}
+.portfolio-slider{
+    margin-top: 50px;
+    width: 100%;
+
+}
+.portfolio-slider .swiper-slide{
+    width: 250px;
+   
+
+}
+.project{
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,white  5%, #c9ecf3 35%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    align-items: center;
+    gap: 50px;
+    border-radius: 19px;
+      
+}
+.project>*{
+    cursor: pointer;
+}
+.p-icons{
+    display: flex;
+    
+ 
+   gap: 10px;
+}
+.p-icons>p{
+    
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+.p-icons>:nth-child(4){
+    color: var(--orange);
+
+}
+.p-icons>:nth-child(2){
+    margin-right: 10px;
+
+}
+.p-icons>:nth-child(3){
+    color: var(--orange);
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.p-icons>:nth-child(1){
+    
+    margin-top: 20px;
+
+}
+.portfolio img{
+    width: 100%;
+    height: 220px;
+/* border: 4px solid var(--orange); */
+    border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+    .portfolio img{
+
+    padding-top: 10px;
+        border-radius: 2px;
+    }
+    .project{
+        height:200px;
+    
+        gap:10px;
+        padding: 0%;
+       
+    }
+ 
+    
+.project-p>.p-1{
+      
+        font-size: 10px;
+     
+    }
+    
+.project-p>.p-2{
+        
+        font-size: 10px;
+        
+    }
+ 
+    .p-icons>*{
+    
+     
+       width: 25px;
+    }
+    .p-icons>:nth-child(2), .p-icons>:nth-child(4){
+        display: none;
+    
+    }
+   
+}
+
+
+
+.project-p{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.p-1{
+    color: var(--orange);
+    font-size: 32px;
+    font-weight: bold;
+}
+.p-2{
+    
+    font-size: 32px;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.f-icons{
+   cursor: pointer;
+
+    display: flex;
+    gap: 34px;
+color: white;
+
+}
+.footer>img{
+    width: 100%;
+}
+.f-content:nth-child(2){
+  font-family: 200;
+ color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -65px;
+    position: relative;
+   
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 100%;
+    gap: 64px;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 480px){
+    .footer{
+        height: 400px;
+    }
+    .f-content{
+      transform: scale(.5);
+    }
+  }
+  

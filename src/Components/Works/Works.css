@@ -1,0 +1,111 @@
+.works{
+    padding-left: 80px;
+    display: flex;
+   
+    height: 500px;
+   }
+    .w-right{
+position: relative;
+
+    }
+    .w-maincircle{
+position: relative;
+width: 400px;
+left: 150px;
+height: 400px;
+border-radius: 100%;
+
+box-shadow: var(--smboxShadow);
+top: 32px;
+background: white;
+    }
+    .w-maincircle>*{
+        position: absolute;
+    }
+    
+    .w-maincircle>:nth-child(1){
+        top: -50px;
+        left: 140px;
+    }
+    .w-maincircle>:nth-child(2){
+        bottom: -50px;
+        left: 140px;
+    }
+     .w-maincircle>:nth-child(3){
+        top: 120px;
+        left: -50px;
+    } 
+    .w-maincircle>:nth-child(4){
+        top: 120px;
+       
+        right: -50px;
+    } 
+    .w-maincircle>:nth-child(5){
+        top: 130px;
+        right: 130px;
+    } 
+    .seccircle{
+width: 120px;
+position: absolute;
+border: 5px solid #ebebeb;
+height: 120px;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background: none;
+box-shadow: var(--smboxShadow);
+background: white;
+    }
+    .seccircle>img{
+        transform: scale(0.6);
+    }
+    .w-backcircle{
+        position: absolute;
+        height: 230px;
+        width: 230px;
+        border-radius: 100%;
+    
+        z-index: -1;
+    }
+    .bluecircle{
+        background-color: #0a52af;
+        right: -200px;
+        top: 10px;
+    }
+    .yellowcircle{
+        background-color: #f7ad3f;
+        right: -220px;
+        bottom: 70px;
+    }
+    @media screen and (max-width: 480px) {
+        .works{
+            
+            flex-direction: column;
+           height: 850px;
+        
+            gap: 50px;
+          
+            padding: 0;
+        }
+      .w-right{
+          display: flex;
+          justify-content: start;
+          margin-top: 30px;
+          align-items: flex-start;
+          transform: scale(0.7);
+      }
+      .w-maincircle{
+       
+          position: static;
+        
+      
+      }
+      .w-backcircle{
+          left: 200px!important;
+      }
+      .w-awesome{
+          margin-left: 50px;
+      }
+ 
+    }
