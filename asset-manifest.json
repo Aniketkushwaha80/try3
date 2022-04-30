@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/github.io/try3npm%20i/static/css/main.613cc475.css",
+    "main.js": "/github.io/try3npm%20i/static/js/main.5da7a3fb.js",
+    "static/media/food.png": "/github.io/try3npm%20i/static/media/food.24d04f59f1c61b644f34.png",
+    "static/media/Aniket.jpg": "/github.io/try3npm%20i/static/media/Aniket.867b60b98362aa5d5c43.jpg",
+    "static/media/overstock.png": "/github.io/try3npm%20i/static/media/overstock.eb36b5ea3f2b572008f9.png",
+    "static/media/boat.png": "/github.io/try3npm%20i/static/media/boat.1e7d3ca966d26787d165.png",
+    "static/media/musicapp.png": "/github.io/try3npm%20i/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/Aniket_kushwaha_Resume.pdf": "/github.io/try3npm%20i/static/media/Aniket_kushwaha_Resume.bca8c7543d9f049aeea4.pdf",
+    "static/media/boy.png": "/github.io/try3npm%20i/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/github.io/try3npm%20i/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/github.io/try3npm%20i/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/github.io/try3npm%20i/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/github.io/try3npm%20i/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/github.io/try3npm%20i/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/github.io/try3npm%20i/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/github.io/try3npm%20i/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/github.io/try3npm%20i/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/github.io/try3npm%20i/index.html",
+    "main.613cc475.css.map": "/github.io/try3npm%20i/static/css/main.613cc475.css.map",
+    "main.5da7a3fb.js.map": "/github.io/try3npm%20i/static/js/main.5da7a3fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613cc475.css",
+    "static/js/main.5da7a3fb.js"
+  ]
+}
